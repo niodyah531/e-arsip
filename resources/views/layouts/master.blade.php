@@ -63,7 +63,7 @@
                             <a href="/suratmasuk/index" class="nav-link">
                                 <i class="far fa-envelope nav-icon"></i>
                                 <p><strong>
-                                    Surat Masuk
+                                    Arsip
                                 </strong></p>
                             </a>
                         </li>
@@ -71,12 +71,12 @@
                             <a href="/kategori/index" class="nav-link">
                                 <i class="nav-icon fas fa-layer-group"></i>
                                 <p><strong>
-                                    Kategori
+                                    Kategori Surat
                                 </strong></p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/profil" class="nav-link">
+                            <a href="/about" class="nav-link">
                                 <i class="nav-icon fas fa-layer-group"></i>
                                 <p><strong>
                                     About
@@ -130,9 +130,6 @@
     <script>
         $(function () {
             $("#tabelSuratmasuk").DataTable();
-            $("#tabelSuratkeluar").DataTable();
-            $("#tabelAgendaMasuk").DataTable();
-            $("#tabelAgendaKeluar").DataTable();
             $("#tabelKategori").DataTable({
                 "paging": true,
                 "lengthChange": true,

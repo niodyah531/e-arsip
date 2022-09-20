@@ -39,7 +39,7 @@ class SuratMasukController extends Controller
         $file->move('datasuratmasuk/', $fileName);
         $suratmasuk->filemasuk = $fileName;
         $suratmasuk->save();
-        return redirect('/suratmasuk/index')->with("sukses","data surat masuk berhasil ditambahkan");
+        return redirect('/suratmasuk/index')->with("sukses","Data Berhasil Ditambahkan");
     }
 
     //function melihat file
@@ -81,7 +81,7 @@ class SuratMasukController extends Controller
             $suratmasuk->filemasuk = 'suratMasuk-'. $request->file('filemasuk')->getClientOriginalName();
             $suratmasuk->save();
         }
-        return redirect('suratmasuk/index') ->with('sukses','Data Surat Masuk Berhasil Diedit');
+        return redirect('suratmasuk/index') ->with('sukses','Data Berhasil Diedit');
     }
 
     //function hapus
@@ -89,6 +89,6 @@ class SuratMasukController extends Controller
     {
         $suratmasuk=\App\SuratMasuk::find($id_suratmasuk);
         $suratmasuk->delete();
-        return redirect('suratmasuk/index')->with('sukses','Data Surat Masuk Berhasil Dihapus');
+        return redirect('suratmasuk/index')->with('sukses','Data Berhasil Dihapus');
     }
 }

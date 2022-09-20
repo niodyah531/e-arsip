@@ -21,7 +21,7 @@
                         <div class="small-box bg-light">
                             <div class="inner">
                                 {{-- <h3>{{DB::table('suratmasuk')->count()}}</h3> --}}
-                                <p><strong>Surat Masuk</strong></p>
+                                <p><strong>Arsip</strong></p>
                             </div>
                             <div class="icon">
                                 <i class="nav-icon fas fa-envelope-open-text"></i>
@@ -38,7 +38,7 @@
                         <div class="small-box bg-light">
                             <div class="inner">
                                 {{-- <h3>{{DB::table('kategori')->count()}}</h3> --}}
-                                <p><strong>Kategori</strong></p>
+                                <p><strong>Kategori Surat</strong></p>
                             </div>
                             <div class="icon">
                                 <i class="nav-icon fas fa-layer-group"></i>

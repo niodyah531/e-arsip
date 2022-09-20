@@ -17,8 +17,12 @@
             </ul>
         </div>
         @endif
+
         <form action="/suratmasuk/tambah" method="POST" enctype="multipart/form-data">
-            <h3><i class="nav-icon fas fa-envelope-open-text my-1 btn-sm-1"></i> Tambah Data Surat Masuk</h3>
+            <h3><i class="nav-icon fas fa-envelope-open-text my-1 btn-sm-1"></i> Arsip Surat >> Unggah</h3>
+            <h5>Unggah surat yang telah terbit pada form ini untuk diarsipkan</h5>
+            <h5>Catatan:</h5>
+            <h5>-  Gunakan file berformat PDF</h5>
             <hr />
             {{csrf_field()}}
             <div class="row">
@@ -49,8 +53,8 @@
                 </div>
             </div>
             <hr>
-            <button type="submit" class="btn btn-success btn-sm "><i class="fas fa-save"></i> SIMPAN</button>
-            <a class="btn btn-danger btn-sm" href="index" role="button"><i class="fas fa-undo"></i> BATAL</a>
+            <button type="submit" class="btn btn-success btn-sm "><i class="fas fa-save"></i> Simpan</button>
+            <a class="btn btn-danger btn-sm" href="index" role="button"><i class="fas fa-undo"></i> Batal</a>
         </form>
     </div>
     </div>
